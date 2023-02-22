@@ -6,7 +6,7 @@ There are 3 task given to complete. After completing all tasks, if everything lo
 ## LEVEL 2 - TASK 1 - CALCULATOR  [ [ Click Here ] ](https://imsubhajit98.github.io/OIBSIP-Calculator/)
 A Calculator created under the virtual internship program of Oasis Infobyte. <br>
 
-#### Skill - HTML, CSS, JavaScript
+### Skill - HTML, CSS, JavaScript with Full Responsive any device like mobile,ipad etc.
 
 ![image](https://user-images.githubusercontent.com/74090703/220562481-55d16bf4-2e51-4101-9cb7-51c495b1ce4c.png)
 
