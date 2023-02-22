@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" name="screen" id="screen1">
+            <input type="text" name="screen" id="screen2">
+            <table>
+                <tr>
+                    <td><button style="background-color: red; color: white;">AC</button></td>
+                    <td><button style=" background-color: rgb(236, 173, 0); color: rgb(0, 0, 0);">BS</button></td>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button>pow</button></td>
+                    <td><button>%</button></td>
+                    <td><button onclick="fact()">!</button></td>
+                    <td><button>/</button></td>
+                </tr>
+                <tr>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">7</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">8</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">9</button></td>
+                    <td><button>x</button></td>
+                </tr>
+                <tr>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">4</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">5</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">1</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">2</button></td>
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">3</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>.</button></td>
+                    <!-- <td><button></button></td> -->
+                    <td><button style="background-color: rgb(2, 11, 59); color: white;">0</button></td>
+                    <td colspan="2"><button id="enter">ENTER</button></td>
+                    
+                </tr>
+            </table>
+            <h6>Made By <a href="https://www.linkedin.com/in/imsubhajit98/"> <img src="linkdin.png" alt="" height="20" width="20" id="icon"></a></h6>
+        </div>
+        
+
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>
